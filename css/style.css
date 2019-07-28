@@ -1,0 +1,55 @@
+.html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 960px;
+  background-color: #eaeaea;
+  margin: 20px auto;
+}
+
+.profile {
+  max-width: 350px;
+  background-color: #39383a;
+  color: #ababab;
+}
+
+.profile-photo {
+  height: 350px;
+  background-image: url(/img/iphoto.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: none;
+}
+
+.profile-info {
+  padding: 50px 30px 70px 30px;
+}
+
+.profile-text {
+  line-height: 24.19px;
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.heading {
+  margin: 0;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.heading-light {
+  color: #ffffff;
+  border-bottom: 2px #5a5a5a dashed;
+}
+/*# sourceMappingURL=style.css.map */
