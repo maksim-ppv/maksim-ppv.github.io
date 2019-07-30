@@ -41,6 +41,7 @@
   line-height: 24.19px;
   font-size: 13px;
   font-family: 'Roboto';
+  margin-bottom: 0px;
 }
 
 .heading {
@@ -59,21 +60,25 @@
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 0px;
 }
 
 .contacts-text {
   text-decoration: none;
   color: #ababab;
   font-size: 13px;
-  padding-left: 24px;
-  line-height: 20.87px;
+  padding-left: 25px;
+  line-height: 20.97px;
   letter-spacing: 0.5px;
 }
 
 .contacts-item {
   border-bottom: 2px #5a5a5a dashed;
   padding-bottom: 24px;
+  padding-top: 13px;
+}
+
+.fas {
+  padding-right: 10px;
 }
 
 address {
