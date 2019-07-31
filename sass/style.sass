@@ -5,13 +5,14 @@
     box-sizing: inherit
 .container
     display: flex
+    justify-content: space-between
     max-width: 960px
     background-color: #eaeaea
     margin: 20px auto
-
+    box-shadow: 1px 1px 10px rgba(168, 168, 168, 0.44)
 
 .profile
-    max-width: 350px
+    flex-basis: 30%
     background-color: #39383a
     color: #ababab
 .profile-photo
@@ -67,8 +68,8 @@ address
     justify-content: center 
     align-items: center
     flex-direction: column
-    width: 100px
-    height: 101px
+    width: 90px
+    height: 90px
     border: 6px solid #5c5c5c
     border-radius: 50%
     margin-right: 30px
@@ -85,6 +86,65 @@ address
     border-bottom: 2px solid #5c5c5c
 .line:nth-child(2)
     margin-left: 30px
+.resume
+    flex-basis: 58%
+    padding: 23px 28px
+    background-color: #fff
+.resume-wrap
+    padding: 36px 56px
+    height: 100%
+    border: 1px solid rgba(168, 168, 168, 0.44)
+.logo
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    //height: 300px
+.logo-imgs
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100px
+    height: 100px
+    border: 3px solid rgba(168, 168, 168, 0.44)
+    border-radius: 50%
+    text-transform: uppercase
+.logo-img
+    font-size: 50px
+    font-weight: 100
+    color: #5c5c5c
+.letter:nth-child(1)
+    margin-right: -20px
+.letter:nth-child(2)
+    font-size: 140px
+.letter:nth-child(3)
+    margin-left: -20px
+    transform: scale(-1,1)
+    
+        
+
+.logo-lines
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-left: 17px
+    margin-right: 17px
+.logo-line
+    width: 83px
+    height: 3px
+    margin-top: 15px 
+    background-color: rgba(168, 168, 168, 1)
+    margin-top: 10px
+    margin-bottom: 10px 
+.logo-lines-left .logo-line:nth-child(2)
+    margin-right: 15px
+.logo-lines-right .logo-line:nth-child(2)
+    margin-left: 15px
+    
+
+
 
 
 
