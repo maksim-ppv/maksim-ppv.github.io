@@ -143,7 +143,7 @@ address {
   width: 70%;
   margin-top: 15px;
   margin-bottom: 10px;
-  border-bottom: 2px solid #5c5c5c;
+  border-bottom: 3px solid #5c5c5c;
 }
 
 .line:nth-child(2) {
@@ -158,7 +158,6 @@ address {
 }
 
 .resume-wrap {
-  padding: 36px 56px;
   height: 100%;
   border: 1px solid rgba(168, 168, 168, 0.44);
 }
@@ -174,10 +173,10 @@ address {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  margin-top: 36px;
 }
 
 .logo-imgs {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,15 +186,15 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100px;
-  height: 100px;
-  border: 3px solid rgba(168, 168, 168, 0.44);
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(168, 168, 168, 0.44);
   border-radius: 50%;
   text-transform: uppercase;
 }
 
 .logo-img {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 100;
   color: #5c5c5c;
 }
@@ -205,7 +204,7 @@ address {
 }
 
 .letter:nth-child(2) {
-  font-size: 140px;
+  font-size: 120px;
 }
 
 .letter:nth-child(3) {
@@ -233,19 +232,18 @@ address {
 }
 
 .logo-line {
-  width: 83px;
-  height: 3px;
-  margin-top: 15px;
+  width: 63px;
+  height: 1px;
   background-color: #a8a8a8;
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 7px;
 }
 
 .logo-lines-left .logo-line:nth-child(2) {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .logo-lines-right .logo-line:nth-child(2) {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 /*# sourceMappingURL=style.css.map */
