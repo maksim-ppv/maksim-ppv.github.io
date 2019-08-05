@@ -159,8 +159,8 @@ address {
 }
 
 .resume-wrap {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   height: 100%;
   border: 1px solid rgba(168, 168, 168, 0.44);
 }
@@ -252,6 +252,7 @@ address {
 .about {
   text-align: center;
   border-bottom: 1px solid rgba(168, 168, 168, 0.44);
+  padding-bottom: 20px;
 }
 
 .name {
@@ -287,12 +288,44 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
 }
 
 .about-social__link {
   color: #777777;
-  padding: 0px 15px;
+  padding: 0px 10px;
   text-decoration: none;
+}
+
+.experience {
+  padding-top: 35px;
+}
+
+.heading_dark {
+  font-size: 16px;
+  border-bottom: 1px solid rgba(168, 168, 168, 0.44);
+  padding-bottom: 25px;
+  letter-spacing: 1.04px;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list-item {
+  font-size: 12px;
+  border-bottom: 1px solid rgba(168, 168, 168, 0.44);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.list-item__title {
+  line-height: 0;
+}
+
+.list-item__date {
+  font-size: 8px;
 }
 /*# sourceMappingURL=style.css.map */
