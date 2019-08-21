@@ -1,2 +1,2 @@
 # maksim-ppv.github.io
-This is ma portfolio
+This is my portfolio
